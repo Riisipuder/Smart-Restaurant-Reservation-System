@@ -1,1 +1,5 @@
-# Smart-Restaurant-Reservation-System
+# Smart Restaurant Reservation System
+
+## Requirements
+
+- JDK 25
