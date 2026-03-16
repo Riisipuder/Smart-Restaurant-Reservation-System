@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: smart-restaurant-reservation-backend
+  profiles:
+    default: local
+
+server:
+  shutdown: graceful
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      show-details: always
