@@ -4,7 +4,6 @@ create table restaurant_tables (
     capacity integer not null,
     x_position integer not null,
     y_position integer not null,
-    shape varchar(30) not null default 'ROUND',
     active boolean not null default true,
     constraint chk_restaurant_tables_capacity
         check (capacity > 0)
