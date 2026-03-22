@@ -27,3 +27,6 @@ frontend/node_modules/
 
 # Temporary bootstrap artifacts
 backend-starter.zip
+
+# Local Maven cache created inside the workspace
+.m2/
